@@ -9,10 +9,17 @@ body {
     font-family: "ios-font";
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: center;
+    align-content: center;
+}
+
 button {
-    width: 2.8em;
-    height: 2.8em;
-    /* padding: */
+    width: 2.3em;
+    height: 2.3em;
     font-size: 2em;
     border-radius: 80px;
     background-color: rgb(58, 58, 58);
@@ -25,13 +32,12 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 18em;
+    height: 10em;
     border: 0.1em solid black;
     text-align: end;
     padding: 0.5em;
     color: white;
-    margin-left: 0.3em;
-    margin-right: 2.8em;
+    margin-bottom: 1.5em;
 
     #display_panel {
         font-size: 4.2em;
@@ -47,8 +53,6 @@ button {
 }
 
 .numbers {
-    margin-left: 0.1em;
-    margin-right: 3em;
     display: grid;
     gap: 0.5em;
     grid-template-columns: repeat(4, 1fr);
