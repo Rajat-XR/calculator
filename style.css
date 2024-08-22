@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "ios-font";
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "ios-font";
+}
+
+button {
+    width: 1.85em;
+    height: 1.85em;
+    /* padding: */
+    font-size: 2em;
+    border-radius: 80px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: rgb(58, 58, 58);
+    font-family: "ios-font";
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10em;
+    border: 0.1em solid black;
+    text-align: end;
+    padding: 0.5em;
+    color: white;
+
+    #display_panel {
+        font-size: 3.2em;
+        margin-bottom: 0;
+    }
+
+    #display_panel2 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+        margin-top: 0.4em;
+        visibility: visible;
+    }
+}
+
+.numbers {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(6,1fr); */
+}
+
+.small-buttons {
+    width: 2em;
+    height: 1.4em;
+    /* padding: 0.5em; */
+    font-size: 1.9em;
+    border-radius: 80px;
+    background-color: rgb(168, 168, 168);
+    color: black;
+}
+
+.orange-buttons {
+    background-color: rgb(253, 153, 1);
+}
+
+#AC {
+    width: 2.1em;
+    height: 2.05em;
+    font-size: 1.8em;
+}
+
+#delete {
+    background-color: rgb(58, 58, 58);
+}
