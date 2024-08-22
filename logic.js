@@ -95,11 +95,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         display_panel.innerHTML = a;
         display_panel2.style.visibility = "visible";
-        display_panel2.innerHTML = eval(aa).toFixed(2);
+        // display_panel2.innerHTML = eval(aa).toFixed(2);
     }
 
     resetbtn.onclick = () => {
         display_panel.innerHTML = "";
+        display_panel2.innerHTML = "";
         display_panel2.style.visibility = "hidden";
         a = ""
         aa = ""
