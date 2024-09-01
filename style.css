@@ -28,6 +28,14 @@ button {
     font-family: "ios-font";
 }
 
+button:hover{
+    transform: scale(0.95);
+}
+
+button:active{
+    transform: scale(1);
+}
+
 .display {
     display: flex;
     flex-direction: column;
